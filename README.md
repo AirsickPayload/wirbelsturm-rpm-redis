@@ -6,6 +6,8 @@ Builds an RPM based on an official [Redis](http://redis.io) source release, usin
 Unfortunately the official Redis project does not release ready-to-use RPM packages.  The RPM
 script in this repository closes that gap.
 
+The RPM created with this code is used by [Wirbelsturm](https://github.com/miguno/wirbelsturm).
+
 ---
 
 Table of Contents
