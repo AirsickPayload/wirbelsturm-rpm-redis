@@ -76,6 +76,7 @@ cd $SANDBOX_INSTALL_DIR
 fpm -s dir -t rpm -a all \
     --name ${SOFTWARE} \
     --version ${VERSION} \
+    --iteration "1.miguno" \
     -C $SANDBOX_INSTALL_DIR/ \
     --maintainer "$MAINTAINER" \
     --vendor Redis.io \
