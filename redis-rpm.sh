@@ -22,7 +22,7 @@ function print_usage() {
     echo "Usage: $myself <version>"
     echo
     echo "Examples:"
-    echo "  \$ $myself 2.8.7"
+    echo "  \$ $myself 2.8.8"
 }
 
 if [ $# -ne 1 ]; then
